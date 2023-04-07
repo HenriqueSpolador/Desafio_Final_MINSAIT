@@ -2,7 +2,7 @@
 
 # Criação de tabelas
 
-DADOS=("TBL_VENDAS" "TBL_CLIENTES" "TBL_ENDERECO" "TBL_REGIAO" "TBL_DIVISAO")
+DADOS=("VENDAS" "CLIENTES" "ENDERECO" "REGIAO" "DIVISAO")
 
 for i in "${DADOS[@]}"
 do
