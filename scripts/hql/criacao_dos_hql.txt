@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Criação de tabelas
+
+DADOS=("TBL_VENDAS" "TBL_CLIENTES" "TBL_ENDERECO" "TBL_REGIAO" "TBL_DIVISAO")
+
+for i in "${DADOS[@]}"
+do
+    echo "$i"
+    cd input/Desafio_Final_MINSAIT/scripts/hql
+    nano create_table_$i.hql
+     
+done
